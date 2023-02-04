@@ -1,1 +1,10 @@
 npx create-react-app -> init a react front end
+npm start -> starts the react app (which can be changed in src/App.js
+
+npm init -> initializes the node project
+npm i express mongoose -> installs express and mongoose as dep.
+npm i --save-dev nodemon -> installs nodemon as dev-dependency
+
+=============
+how to start mongoDB on your computer
+https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/

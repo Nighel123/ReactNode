@@ -1,0 +1,25 @@
+GET http://localhost:5050/subscribers
+
+###
+
+GET http://localhost:5050/subscribers/63dea072bfa8128beea5bac3
+
+###
+POST http://localhost:5050/subscribers
+Content-Type: application/json
+
+{
+    "name": "Nickel Paulsen",
+    "subscribedToChannel": "Nickels Awsome Channel"
+}
+
+###
+DELETE http://localhost:5050/subscribers/63dea072bfa8128beea5bac3
+
+###
+PATCH http://localhost:5050/subscribers/63dea04ec94241f065e82257
+Content-Type: application/json
+
+{
+    "name": "XXX New"
+}
